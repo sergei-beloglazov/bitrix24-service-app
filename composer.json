@@ -1,0 +1,19 @@
+{
+  "name": "sergei-beloglazov/bitrix24-service-app",
+  "description": "Bitrix24.Market basic service application",
+  "authors": [
+    {
+      "name": "Sergei Beloglazov",
+      "email": "sabeloglazov@gmail.com",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": ">=7.4 || >=8.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Bitrix24Integration\\": "src/"
+    }
+  }
+}
