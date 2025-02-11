@@ -109,8 +109,8 @@ use Bitrix24Integration\Lib\CRest;
                     ?>
                                 <script>
                                     BX24.init(function() {
-                                        //Close window
-                                        BX24.closeApplication();
+                                        //Close window after saving
+                                       // BX24.closeApplication();
                                     });
                                 </script>
                         <?
